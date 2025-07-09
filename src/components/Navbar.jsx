@@ -6,7 +6,7 @@ export const Navbar = () => {
         <div className="container-fluid">
           <a className="navbar-brand text-white" href="#">
             {/* <img src="your-logo.png" alt="Your Logo" width="30" height="24" class="d-inline-block align-text-top"/> */}
-            Your Company Name
+            Portfolio Web
           </a>
 
           <button
@@ -25,10 +25,10 @@ export const Navbar = () => {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className="navbar-nav">
+            <ul className="navbar-nav px-5 gap-5">
               <li className="nav-item">
                 <a
-                  className="nav-link active text-white"
+                  className="nav-link active text-white fw-bold "
                   aria-current="page"
                   href="#"
                 >
@@ -36,22 +36,22 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white fw-bold" href="#scrollspyHeading2">
                   Sobre mi
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Experiencia
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Proyectos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="">
+                <a className="nav-link text-white fw-bold" href="">
                   Contacto
                 </a>
               </li>

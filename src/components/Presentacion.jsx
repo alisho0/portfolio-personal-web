@@ -4,7 +4,7 @@ import yo from '../assets/yo.jpeg'; // Cambia el nombre si tu archivo es diferen
 
 export const Presentacion = () => {
   return (
-    <section className="container-fluid vh-100 d-flex align-items-center bg-light container-hero mx-5">
+    <section className="container-fluid vh-100 d-flex align-items-center bg-light container-hero px-10">
       <div className="row w-100 align-items-center">
         <div className="col-12 col-md-6 text-start mb-4 mb-md-0">
           <h2 className=" text-white display-4 fw-bold mb-3">

@@ -19,3 +19,7 @@ p {
   line-height: 1.9rem;
 }
 
+.px-10 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
