@@ -13,8 +13,7 @@ export const SobreMi = () => {
               reales donde diseño APIs REST, gestiono relaciones complejas con JPA
               y conecto con frontend en React. Me gusta trabajar en equipo,
               aprender nuevas tecnologías y construir software útil y mantenible.
-              Actualmente busco crecer profesionalmente en entornos que valoren el
-              código limpio y la mejora continua.
+              Actualmente busco crecer profesionalmente en entornos que aporten en un mayor aprendizaje sobre el lenguaje Java y otros.
             </p>
           </div>
           <div className="col-md-5 text-center">
