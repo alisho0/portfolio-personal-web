@@ -8,7 +8,7 @@ export const Presentacion = () => {
   return (
     <section
       className="container-fluid vh-100 d-flex align-items-center container-hero px-0"
-      style={{ background: '#181A1B' }}
+      style={{ background: 'linear-gradient(180deg, #0e0e0e, #121212)' }}
     >
       <div className="row w-100 align-items-center">
         <div className="col-12 col-md-6 text-start mb-4 mb-md-0 px-5">
@@ -37,12 +37,12 @@ export const Presentacion = () => {
               style={{ textDecoration: 'none' }}
             >
               <span
-                className="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                className="lkd-icon redes-img d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                 style={{
                   background: '#0A66C2',
                   width: 48,
                   height: 48,
-                  boxShadow: '0 2px 8px rgba(0,0,0,0.3)'
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
                 }}
               >
                 <img
@@ -59,7 +59,7 @@ export const Presentacion = () => {
               style={{ textDecoration: 'none' }}
             >
               <span
-                className="d-inline-flex align-items-center justify-content-center rounded-circle shadow"
+                className="github-icon redes-img d-inline-flex align-items-center justify-content-center rounded-circle shadow"
                 style={{
                   background: '#23272F',
                   width: 48,

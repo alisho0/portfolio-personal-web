@@ -41,8 +41,8 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link text-white fw-bold" href="#">
-                  Experiencia
+                <a className="nav-link text-white fw-bold" href="#stack-tecnologico">
+                  Stack Tecnológico
                 </a>
               </li>
               <li className="nav-item">

@@ -13,6 +13,7 @@ body {
 
 .container-hero {
   background: linear-gradient(135deg, #181c24 0%, #23272f 100%);
+  
 }
 
 p {
@@ -22,4 +23,50 @@ p {
 .px-10 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+.redes-img {
+  transition: all 0.3s ease-in-out;
+}
+.redes-img:hover {
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+}
+
+.lkd-icon:hover {
+  filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.5));
+}
+.github-icon:hover {
+  filter: drop-shadow(0 0 6px rgba(57, 63, 75, 0.5));
+}
+
+.icon-size {
+  width: 3rem;
+}
+
+.img-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6); /* negro con opacidad */
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img-card:hover .img-overlay {
+  opacity: 1;
+}
+.img-overlay i {
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0;
+}
+.img-card:hover .img-overlay i {
+  opacity: 1;
 }
