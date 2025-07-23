@@ -6,7 +6,7 @@ export const Navbar = () => {
         <div className="container-fluid">
           <a className="navbar-brand text-white" href="#">
             {/* <img src="your-logo.png" alt="Your Logo" width="30" height="24" class="d-inline-block align-text-top"/> */}
-            Portfolio Web
+            Portfolio Web 💻
           </a>
 
           <button
@@ -36,7 +36,7 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white fw-bold" href="#scrollspyHeading2">
+                <a className="nav-link text-white fw-bold" href="#sobremi">
                   Sobre mi
                 </a>
               </li>
@@ -46,7 +46,7 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white fw-bold" href="#">
+                <a className="nav-link text-white fw-bold" href="#proyectos">
                   Proyectos
                 </a>
               </li>

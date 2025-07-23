@@ -2,19 +2,16 @@ import React from "react";
 import yo from "../assets/yo.jpeg";
 export const SobreMi = () => {
   return (
-    <section className="bg-dark py-5 w-100">
+    <section className="bg-dark py-5 w-100" id="sobremi">
       <div className="container">
-        <h2 id="scrollspyHeading2" className="text-white text-center fw-bold mb-4">Sobre mi</h2>
+        <h2  className="text-white text-center fw-bold mb-4">Sobre mi</h2>
         <div className="row align-items-center justify-content-center gap-5">
           <div className="col-md-7 text-white px-4" style={{ fontSize: "1.1rem", maxWidth: "600px" }}>
             <p>
-              Buenas, mi nombre es Rea Gabriel Alejandro, tengo 20 años y soy desarrollador backend con experiencia en Java, Spring Boot y
-              bases de datos relacionales. Tengo un año de experiencia desarrollando software en proyectos personales y académicos. Actualmente curso mi segundo año en tecnicatura en desarrollo de software.
+              Soy Alejandro Rea, desarrollador backend con <b>un año experiencia</b> en proyectos personales y académicos. Estudiante de Tecnicatura en Desarrollo de Software, enfocado en crear soluciones útiles y mantenibles aplicando metodologías ágiles.
             </p>
+             Disfruto el trabajo en equipo, aprender nuevas tecnologías y crecer profesionalmente en entornos que impulsen el dominio de Java y más.
             <p>
-              Me gusta trabajar en equipo,
-              aprender nuevas tecnologías y construir software útil y mantenible aplicando metodologías ágiles.
-              Actualmente busco crecer profesionalmente en entornos que aporten en un mayor aprendizaje sobre el lenguaje Java y otros.
             </p>
           </div>
           <div className="col-md-5 text-center">

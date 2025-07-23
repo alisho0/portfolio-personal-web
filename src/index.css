@@ -70,3 +70,12 @@ p {
 .img-card:hover .img-overlay i {
   opacity: 1;
 }
+
+.link-hover-c {
+  color: #ffffff;
+  transition: .3s;
+}
+.link-hover-c:hover {
+  color: #6C63FF;
+  transition: .3s;
+}
