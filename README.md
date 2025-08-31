@@ -1,12 +1,22 @@
-# React + Vite
+# 💼 Portfolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portfolio personal. Soy desarrollador fullstack con experiencia en sistemas escalables y soluciones orientadas al impacto real. Este repositorio reúne algunos de mis proyectos más representativos.
 
-Currently, two official plugins are available:
+## Sobre mí
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Experiencia en Spring Boot, React, Python y arquitectura MVC
+- Apasionado por construir sistemas mantenibles y claros
+- Colaborador activo, siempre abierto a feedback y mejora continua
 
-## Expanding the ESLint configuration
+## Tecnologías y herramientas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Backend: Java, Spring Boot, Python, Django
+- Frontend: React, HTML/CSS, Bootstrap
+- Base de datos: MySQL, MongoDB
+- Otros: Git, GitHub, Notion
+
+## Contacto
+
+- Email: [alejorea2015@gmail.com]
+- LinkedIn: [www.linkedin.com/in/rea-alejandro]
+
