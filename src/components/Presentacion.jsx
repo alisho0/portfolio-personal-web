@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import yo from "../assets/yo.jpeg"; // Cambia el nombre si tu archivo es diferente
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
+import cv from "../assets/CV-ReaAlejandro.pdf";
 
 export const Presentacion = () => {
   return (
@@ -80,7 +81,7 @@ export const Presentacion = () => {
               </span>
             </a>
             <a
-              href="src\assets\CV-ReaAlejandro.pdf"
+              href={cv}
               download
               className="btn btn-outline-light d-flex align-items-center gap-2"
               style={{ fontWeight: 'bold', fontSize: '1rem', padding: '0.5rem 1.2rem' }}
