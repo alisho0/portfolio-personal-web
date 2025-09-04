@@ -6,20 +6,26 @@ const proyectosData = [
     descripcion:
       "Sistema realizado por la materia 'Práctica Profesionalizante' hacia la Dirección General de Comercio de Santiago del Estero. \n Permite al público mandar solicitudes de denuncia y realizar un seguimiento del trámite. El usuario interno gestionar solicitudes, realizar un expediente y mantener un registro de documentos.",
     tecnologias: ["Java", "Spring Boot", "React JS", "MySQL", "Bootstrap", "CSS"],
+    link: "#",
+    repo: "#"
   },
   {
     imagen: "src/assets/proyectos/portfolio-web.png",
     titulo: "Portfolio Web",
     descripcion:
-      "Sitio realizado con el fin de mostrar información sobre mi, tecnologías que utilizo, experiencia y una sección de contacto.",
+      "Este proyecto es un sitio web diseñado para mostrar mis proyectos, habilidades y experiencia de manera profesional. El objetivo fue crear un espacio claro y accesible donde cualquiera pueda conocer mi trabajo y ponerse en contacto conmigo. \n Cuenta con un diseño simple, totalmente responsive, y secciones dinámicas que permiten una navegación simple. Fue construido con React y Bootstrap, priorizando la usabilidad y la estética.",
     tecnologias: ["React JS", "Bootstrap", "CSS"],
+    link: "https://anireco.com",
+    repo: "https://github.com/alisho0/portfolio-personal-web"
   },
   {
-    imagen: "src/assets/proyectos/prueba-card.png",
-    titulo: "sample project",
+    imagen: "src/assets/proyectos/anireco.png",
+    titulo: "AniReco",
     descripcion:
-      "This is a description of the sample project. It includes various features and functionalities that demonstrate the capabilities of the project.",
-    tecnologias: ["JavaScript", "Node.js", "Express"],
+      "AniReco es una aplicación web pensada para ayudar a los usuarios a descubrir nuevos animes según sus preferencias. Permite realizar búsquedas personalizadas y mostrar recomendaciones obtenidas a partir del consumo de API de AniList. \n Además, cuenta con una sección de favoritos donde los usuarios pueden guardar sus animes preferidos para acceder a ellos fácilmente en el futuro.",
+    tecnologias: ["Java", "Thymeleaf", "Spring Boot", "Bootstrap", "JavaScript"],
+    link: "https://anime-recom.onrender.com/",
+    repo: "https://github.com/alisho0/anime-recom"
   },
 ];
 

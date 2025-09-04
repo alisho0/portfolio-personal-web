@@ -6,8 +6,10 @@ const tecData = {
     { name: "Spring Boot", img: "src/assets/tec/springboot.png" },
     // { name: "JPA", img: "src/assets/tec/jpa.png" },
     { name: "Hibernate", img: "src/assets/tec/hibernate.png" },
-    // { name: "Python", img: "src/assets/tec/python.png" },
-    // { name: "Django", img: "src/assets/tec/django.png" },
+    { name: "Python", img: "src/assets/tec/python.png" },
+    { name: "Django", img: "src/assets/tec/django.svg" },
+    { name: "MySQL", img: "src/assets/tec/mysql.png" },
+    { name: "MySQL", img: "src/assets/tec/mysql2.png" },
   ],
   Frontend: [
     { name: "JavaScript", img: "src/assets/tec/js.png" },
