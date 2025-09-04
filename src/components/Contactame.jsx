@@ -20,7 +20,7 @@ export const Contactame = () => {
         <div className='container'>
             <h2 className='text-center text-white mb-4 fw-bold'>Contacto</h2>
             <p className='text-white' style={{fontSize: '1.1rem'}}>A través de las siguientes vías de comunicación podrás contactarte conmigo.</p>
-            <div className="row">
+            <div className="row" id='contacto'>
                 {contacto.map((contacto, idx) => (
                     <div className="col-sm-6 mb-3 mb-sm-0" key={idx}>
                         <div className="card bg-dark border border-1">

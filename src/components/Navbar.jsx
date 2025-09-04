@@ -51,7 +51,7 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white fw-bold" href="">
+                <a className="nav-link text-white fw-bold" href="#contacto">
                   Contacto
                 </a>
               </li>
