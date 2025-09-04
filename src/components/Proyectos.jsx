@@ -1,7 +1,11 @@
 import React from "react";
+import portimg from "../assets/proyectos/portfolio-web.png";
+import siteimg from "../assets/proyectos/prueba-card.png";
+import anirecoimg from "../assets/proyectos/anireco.png";
+
 const proyectosData = [
   {
-    imagen: "src/assets/proyectos/prueba-card.png",
+    imagen: siteimg,
     titulo: "Sistema Interno de Tramites y Expedientes",
     descripcion:
       "Sistema realizado por la materia 'Práctica Profesionalizante' hacia la Dirección General de Comercio de Santiago del Estero. \n Permite al público mandar solicitudes de denuncia y realizar un seguimiento del trámite. El usuario interno gestionar solicitudes, realizar un expediente y mantener un registro de documentos.",
@@ -10,16 +14,16 @@ const proyectosData = [
     repo: "#"
   },
   {
-    imagen: "src/assets/proyectos/portfolio-web.png",
+    imagen: portimg,
     titulo: "Portfolio Web",
     descripcion:
       "Este proyecto es un sitio web diseñado para mostrar mis proyectos, habilidades y experiencia de manera profesional. El objetivo fue crear un espacio claro y accesible donde cualquiera pueda conocer mi trabajo y ponerse en contacto conmigo. \n Cuenta con un diseño simple, totalmente responsive, y secciones dinámicas que permiten una navegación simple. Fue construido con React y Bootstrap, priorizando la usabilidad y la estética.",
     tecnologias: ["React JS", "Bootstrap", "CSS"],
-    link: "https://anireco.com",
+    link: "https://portfolio-personal-web-delta.vercel.app/",
     repo: "https://github.com/alisho0/portfolio-personal-web"
   },
   {
-    imagen: "src/assets/proyectos/anireco.png",
+    imagen: anirecoimg,
     titulo: "AniReco",
     descripcion:
       "AniReco es una aplicación web pensada para ayudar a los usuarios a descubrir nuevos animes según sus preferencias. Permite realizar búsquedas personalizadas y mostrar recomendaciones obtenidas a partir del consumo de API de AniList. \n Además, cuenta con una sección de favoritos donde los usuarios pueden guardar sus animes preferidos para acceder a ellos fácilmente en el futuro.",
@@ -54,20 +58,17 @@ export const Proyectos = () => {
               alt="..."
             />
             <div className="img-overlay d-none d-md-flex">
-              <a href="#" target="_blank">
-                <i className="bi bi-eye"></i>
-              </a>
-              <a href="#" target="_blank">
-                <i className="bi bi-github"></i>
-              </a>
-            </div>
-            <div className="d-block d-md-none text-center mt-2">
-              <a href="#" target="_blank" className="btn btn-outline-light me-2">
-                <i className="bi bi-eye"></i> Ver
-              </a>
-              <a href="#" target="_blank" className="btn btn-outline-light">
-                <i className="bi bi-github"></i> Código
-              </a>
+              {proyecto.link !== "#" && (
+                <a href={proyecto.link} target="_blank" rel="noopener noreferrer">
+                  <i className="bi bi-eye"></i>
+                </a>
+              )}
+
+              {proyecto.repo !== "#" && (
+                <a href={proyecto.repo} target="_blank" rel="noopener noreferrer">
+                  <i className="bi bi-github"></i>
+                </a>
+              )}
             </div>
           </div>
           <div className="card-body">

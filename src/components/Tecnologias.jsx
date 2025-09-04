@@ -1,29 +1,44 @@
 import React from "react";
+import java from "../assets/tec/icons8-java-48.png";
+import sb from "../assets/tec/springboot.png";
+import hb from "../assets/tec/hibernate.png";
+import py from "../assets/tec/python.png";
+import dj from "../assets/tec/django.svg";
+import mysql from "../assets/tec/mysql.png";
+import js from "../assets/tec/js.png";
+import react from "../assets/tec/icons8-react-native-48.png";
+import html from "../assets/tec/html.png";
+import css from "../assets/tec/css.png";
+import git from "../assets/tec/git.png";
+import github from "../assets/tec/githun.png";
+import ij from "../assets/tec/intellij.png";
+import vscode from "../assets/tec/vscode.png";
+import notion from "../assets/tec/notion.png";
+import pm from "../assets/tec/postman.svg";
 
 const tecData = {
   Backend: [
-    { name: "Java", img: "src/assets/tec/icons8-java-48.png" },
-    { name: "Spring Boot", img: "src/assets/tec/springboot.png" },
+    { name: "Java", img: java },
+    { name: "Spring Boot", img: sb },
     // { name: "JPA", img: "src/assets/tec/jpa.png" },
-    { name: "Hibernate", img: "src/assets/tec/hibernate.png" },
-    { name: "Python", img: "src/assets/tec/python.png" },
-    { name: "Django", img: "src/assets/tec/django.svg" },
-    { name: "MySQL", img: "src/assets/tec/mysql.png" },
-    { name: "MySQL", img: "src/assets/tec/mysql2.png" },
+    { name: "Hibernate", img: hb },
+    { name: "Python", img: py },
+    { name: "Django", img: dj },
+    { name: "MySQL", img: mysql },
   ],
   Frontend: [
-    { name: "JavaScript", img: "src/assets/tec/js.png" },
-    { name: "React", img: "src/assets/tec/icons8-react-native-48.png" },
-    { name: "HTML", img: "src/assets/tec/html.png" },
-    { name: "CSS", img: "src/assets/tec/css.png" },
+    { name: "JavaScript", img: js },
+    { name: "React", img: react },
+    { name: "HTML", img: html },
+    { name: "CSS", img: css },
   ],
   Herramientas: [
-    { name: "Git", img: "src/assets/tec/git.png" },
-    { name: "GitHub", img: "src/assets/tec/githun.png" },
-    { name: "IntelliJ", img: "src/assets/tec/intellij.png" },
-    { name: "VSCode", img: "src/assets/tec/vscode.png" },
-    { name: "Notion", img: "src/assets/tec/notion.png" },
-    { name: "Postman", img: "src/assets/tec/postman.svg" },
+    { name: "Git", img: git },
+    { name: "GitHub", img: github },
+    { name: "IntelliJ", img: ij },
+    { name: "VSCode", img: vscode },
+    { name: "Notion", img: notion },
+    { name: "Postman", img: pm },
   ],
 };
 
