@@ -5,14 +5,12 @@ import { SobreMi } from './components/SobreMi'
 import { Tecnologias } from './components/Tecnologias'
 import { Proyectos } from './components/Proyectos'
 import { Contactame } from './components/Contactame'
-// import './App.css'
-
 function PortfolioApp() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Presentacion/>
       <SobreMi />
       <Tecnologias />
