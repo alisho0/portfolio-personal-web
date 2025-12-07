@@ -6,9 +6,9 @@ import github from "../assets/github.png";
 import cv from "../assets/CV-ReaAlejandro.pdf";
 import { ArrowDownIcon } from "@heroicons/react/16/solid";
 
-export const Presentacion = () => {
+export const Presentacion = ({ setActiveSection, activeSection }) => {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center px-6 overflow-hidden bg-zinc-950 text-white">
+    <section id="presentacion" className="relative min-h-[90vh] flex items-center justify-center px-6 overflow-hidden bg-zinc-950 text-white">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-600/50 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-600/50 rounded-full blur-3xl"></div>
@@ -36,16 +36,14 @@ export const Presentacion = () => {
         </h3>
 
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Backend Developer con 1 año de experiencia especializado en Node.js,
-          arquitectura REST y bases de datos. Transformo ideas en soluciones
-          backend confiables y bien estructuradas.
+          Backend Developer con 1 año de experiencia en desarrollo de APIs robustas con Java y Springboot, integradas con frontend en React.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold transition transform hover:scale-105 cursor-pointer">
+          <button className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold transition transform hover:scale-105 cursor-pointer" onClick={() => setActiveSection("proyectos")}>
             Ver Proyectos
           </button>
-          <button className="px-8 py-3 border rounded-lg border-purple-600  hover:bg-purple-50/20 cursor-pointer  font-semibold transition">
+          <button className="px-8 py-3 border rounded-lg border-purple-600  hover:bg-purple-50/20 cursor-pointer  font-semibold transition" onClick={() => setActiveSection("contacto")}>
             Contactar
           </button>
         </div>

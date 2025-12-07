@@ -1,9 +1,12 @@
 import React from "react";
 import yo from "../assets/yo.jpeg";
-export const SobreMi = () => {
+export const SobreMi = ({activeSection}) => {
+
+  const isVisible = activeSection === "sobremi"
+
   return (
     <section
-      id="about"
+      id="sobremi"
       className={`min-h-screen flex items-center justify-center px-6 py-20 transition-opacity duration-500 bg-zinc-950 text-white`}
     >
       <div className="max-w-4xl mx-auto w-full">

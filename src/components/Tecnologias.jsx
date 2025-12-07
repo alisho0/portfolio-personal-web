@@ -33,36 +33,11 @@ import pm from "../assets/tec/postman.svg";
       items: ["Git", "GitHub", "Notion", "IntelliJ", "VS Code", "Vite"],
     },
   ]
-const tecData = {
-  Backend: [
-    { name: "Java", img: java },
-    { name: "Spring Boot", img: sb },
-    // { name: "JPA", img: "src/assets/tec/jpa.png" },
-    { name: "Hibernate", img: hb },
-    { name: "Python", img: py },
-    { name: "Django", img: dj },
-    { name: "MySQL", img: mysql },
-  ],
-  Frontend: [
-    { name: "JavaScript", img: js },
-    { name: "React", img: react },
-    { name: "HTML", img: html },
-    { name: "CSS", img: css },
-  ],
-  Herramientas: [
-    { name: "Git", img: git },
-    { name: "GitHub", img: github },
-    { name: "IntelliJ", img: ij },
-    { name: "VSCode", img: vscode },
-    { name: "Notion", img: notion },
-    { name: "Postman", img: pm },
-  ],
-};
 
-export const Tecnologias = () => {
+export const Tecnologias = ({ activeSection }) => {
   return (
 
-    <section id="skills" className="py-20 px-6 scroll-mt-20 text-white bg-zinc-950">
+    <section id="tecnologias" className="py-20 px-6 scroll-mt-20 text-white bg-zinc-950">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
