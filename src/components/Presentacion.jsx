@@ -3,12 +3,15 @@ import { Typewriter } from "react-simple-typewriter";
 import yo from "../assets/yo.jpeg"; // Cambia el nombre si tu archivo es diferente
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
-import cv from "../assets/CV-ReaAlejandro.pdf";
 import { ArrowDownIcon } from "@heroicons/react/16/solid";
+import { PiDownloadSimple } from "react-icons/pi";
 
 export const Presentacion = ({ setActiveSection, activeSection }) => {
   return (
-    <section id="presentacion" className="relative min-h-[90vh] flex items-center justify-center px-6 overflow-hidden bg-zinc-950 text-white">
+    <section
+      id="presentacion"
+      className="relative min-h-[90vh] flex items-center justify-center px-6 overflow-hidden bg-zinc-950 text-white"
+    >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-600/50 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-600/50 rounded-full blur-3xl"></div>
@@ -36,14 +39,29 @@ export const Presentacion = ({ setActiveSection, activeSection }) => {
         </h3>
 
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Backend Developer con 1 año de experiencia en desarrollo de APIs robustas con Java y Springboot, integradas con frontend en React.
+          Backend Developer con 1 año de experiencia en desarrollo de APIs
+          robustas con Java y Springboot, integradas con frontend en React.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold transition transform hover:scale-105 cursor-pointer" onClick={() => setActiveSection("proyectos")}>
+          <button
+            className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold transition transform hover:scale-105 cursor-pointer shadow-lg"
+            onClick={() => setActiveSection("proyectos")}
+          >
             Ver Proyectos
           </button>
-          <button className="px-8 py-3 border rounded-lg border-purple-600  hover:bg-purple-50/20 cursor-pointer  font-semibold transition" onClick={() => setActiveSection("contacto")}>
+          <a
+            className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold transition transform hover:scale-105 cursor-pointer shadow-lg flex items-center gap-1"
+            download
+            href="src\assets\CV_GabrielAlejandroRea_2025.pdf"
+          >
+            <PiDownloadSimple className="h-5 w-5" />
+            <span>Descargar CV</span>
+          </a>
+          <button
+            className="px-8 py-3 border rounded-lg border-purple-600  hover:bg-purple-700/20 cursor-pointer  font-semibold transition shadow-lg hover:scale-105"
+            onClick={() => setActiveSection("contacto")}
+          >
             Contactar
           </button>
         </div>

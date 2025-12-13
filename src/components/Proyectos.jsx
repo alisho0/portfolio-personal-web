@@ -66,12 +66,12 @@ export const Proyectos = ({activeSection}) => {
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition"></div>
               </div>
 
-              {/* Project Content */}
+              {/* contenido */}
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="mb-4 text-sm leading-relaxed text-gray-500">{project.description}</p>
 
-                {/* Technologies */}
+                {/* tecnologias */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((tech) => (
                     <span key={tech} className="px-3 py-1 bg-zinc-800 text-purple-600 text-xs font-semibold rounded">
