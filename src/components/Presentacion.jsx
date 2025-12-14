@@ -1,12 +1,20 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import yo from "../assets/yo.jpeg"; // Cambia el nombre si tu archivo es diferente
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import { ArrowDownIcon } from "@heroicons/react/16/solid";
 import { PiDownloadSimple } from "react-icons/pi";
 
 export const Presentacion = ({ setActiveSection, activeSection }) => {
+    const handleNavClick = (id) => {
+    setActiveSection(id)
+    // setMenuOpen(false)
+    
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   return (
     <section
       id="presentacion"
@@ -46,7 +54,7 @@ export const Presentacion = ({ setActiveSection, activeSection }) => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <button
             className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold transition transform hover:scale-105 cursor-pointer shadow-lg"
-            onClick={() => setActiveSection("proyectos")}
+            onClick={() => handleNavClick("proyectos")}
           >
             Ver Proyectos
           </button>
@@ -60,7 +68,7 @@ export const Presentacion = ({ setActiveSection, activeSection }) => {
           </a>
           <button
             className="px-8 py-3 border rounded-lg border-purple-600  hover:bg-purple-700/20 cursor-pointer  font-semibold transition shadow-lg hover:scale-105"
-            onClick={() => setActiveSection("contacto")}
+            onClick={() => handleNavClick("contacto")}
           >
             Contactar
           </button>

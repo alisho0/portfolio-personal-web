@@ -38,7 +38,7 @@ export const Navbar = ({ activeSection, setActiveSection, menuOpen, setMenuOpen 
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className={`block text-left text-sm font-semibold tracking-wider transition-all pb-2 border-b-2 ${
+                className={`block text-left text-sm font-semibold tracking-wider transition-all pb-2 border-b-2 cursor-pointer ${
                   activeSection === item.id
                     ? "text-purple-600 border-purple-600"
                     : "text-gray-500 border-transparent hover:text-white"
@@ -47,6 +47,7 @@ export const Navbar = ({ activeSection, setActiveSection, menuOpen, setMenuOpen 
                 {item.label}
               </button>
             ))}
+              <a className="block text-left text-sm font-semibold tracking-wider transition-all pb-2 border-b-2 text-gray-500 border-transparent hover:text-white" href="src\assets\CV_GabrielAlejandroRea_2025.pdf" download>DESCARGAR CV</a>
           </nav>
         </div>
 

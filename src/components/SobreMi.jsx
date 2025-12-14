@@ -72,7 +72,7 @@ export const SobreMi = ({activeSection}) => {
           <div className="space-y-6">
             <img
               className="border shadow-lg rounded-4xl"
-              src="src\assets\yo.jpeg"
+              src={yo}
               alt="Alejandro Rea"
             />
           </div>

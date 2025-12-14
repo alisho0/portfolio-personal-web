@@ -2,6 +2,7 @@ import React from "react";
 import portimg from "../assets/proyectos/portfolio-web.png";
 import siteimg from "../assets/proyectos/prueba-card.png";
 import anirecoimg from "../assets/proyectos/anireco.png";
+import sep from "../assets/proyectos/sep.png"
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 import { FiGithub } from "react-icons/fi";
   const projects = [
@@ -10,14 +11,14 @@ import { FiGithub } from "react-icons/fi";
       description:
         "Sistema realizado por la materia 'Práctica Profesionalizante' hacia la Dirección General de Comercio de Santiago del Estero. \n Permite al público mandar solicitudes de denuncia y realizar un seguimiento del trámite. El usuario interno gestionar solicitudes, realizar un expediente y mantener un registro de documentos.",
       tech: ["Java", "Spring Boot", "React JS", "MySQL", "Bootstrap", "CSS"],
-      image: "src/assets/proyectos/prueba-card.png",
+      image: siteimg,
       link: "https://github.com/alisho0/site-backend"
     },
     {
       title: "Portfolio Web",
       description:"Este proyecto es un sitio web diseñado para mostrar mis proyectos, habilidades y experiencia de manera profesional. El objetivo fue crear un espacio claro y accesible donde cualquiera pueda conocer mi trabajo y ponerse en contacto conmigo. \n Cuenta con un diseño simple, totalmente responsive, y secciones dinámicas que permiten una navegación simple. Fue construido con React y Bootstrap, priorizando la usabilidad y la estética.",
       tech: ["React JS", "Tailwind CSS", "CSS"],
-      image: "src/assets/proyectos/portfolio-web.png",
+      image: portimg,
       link: "https://github.com/alisho0/portfolio-personal-web"
     },
     {
@@ -25,7 +26,7 @@ import { FiGithub } from "react-icons/fi";
       description:
         "AniReco es una aplicación web pensada para ayudar a los usuarios a descubrir nuevos animes según sus preferencias. Permite realizar búsquedas personalizadas y mostrar recomendaciones obtenidas a partir del consumo de API de AniList. \n Además, cuenta con una sección de favoritos donde los usuarios pueden guardar sus animes preferidos para acceder a ellos fácilmente en el futuro.",
       tech: ["Java", "Thymeleaf", "Spring Boot", "Bootstrap", "JavaScript"],
-      image: "src/assets/proyectos/anireco.png",
+      image: anirecoimg,
       link: "https://github.com/alisho0/anime-recom"
     },
     {
@@ -33,7 +34,7 @@ import { FiGithub } from "react-icons/fi";
       description:
         "Solución de caché distribuido con replicación y failover automático, reduciendo latencia de respuesta un 80%.",
       tech: ["Java", "Spring Boot", "React JS", "JavaScript", "Tailwind CSS", "Spring Security"],
-      image: "/distributed-cache.jpg",
+      image: sep,
       link: "https://github.com/alisho0/sep-project"
     },
   ]
